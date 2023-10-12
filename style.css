@@ -8,21 +8,52 @@ body{
 ul{
     list-style-type: none;
     display: flex;
-    gap: 8px;
+    gap: 16px;
 }
 
-a{
+header a{
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 
+/* Headers */
 header{
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
+    padding: 0px 100px;
 }
 
-#logotext{
-    color: white;
+.header-left{
+    width: 600px;
 }
+
+.header-left p{
+    margin-top: -20px;
+}
+
+.header-down{
+    padding-bottom: 100px;
+}
+
+button{
+    padding:5px 20px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    font-family: Product Sans;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.header-right img{
+    margin-top: 50px;
+    width: 450px;
+    height: auto;
+    padding-left: 50px;
+}
+
+
