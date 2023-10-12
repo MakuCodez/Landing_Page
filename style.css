@@ -17,7 +17,7 @@ header a{
     font-weight: bold;
 }
 
-/* Headers */
+/* Header */
 header{
     background-color: #1F2937;
     display: flex;
@@ -26,13 +26,13 @@ header{
     color: white;
     padding: 0px 100px;
 }
-
+/* SubHeader */
 .header-left{
     width: 600px;
 }
 
 .header-left p{
-    margin-top: -20px;
+    margin-top: -50px;
 }
 
 .header-down{
@@ -51,9 +51,25 @@ button{
 
 .header-right img{
     margin-top: 50px;
-    width: 450px;
-    height: auto;
+    width: auto;
+    height: 200px;
     padding-left: 50px;
 }
 
+#heromain{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+/* Footer */
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+}
 
