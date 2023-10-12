@@ -8,7 +8,7 @@ body{
 ul{
     list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     margin: 0;
     padding: 10px 0px;
 }
@@ -58,6 +58,10 @@ button{
     font-family: Product Sans;
     border-radius: 5px;
     font-weight: bold;
+}
+
+.signuphead{
+    padding: 5px 30px;
 }
 
 .header-right img{
@@ -132,6 +136,41 @@ button{
     margin-left: auto;
     margin-right: 0px;
     margin-top: -30px;
+}
+
+/* Signup */
+.content-action{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.signup{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 800px;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.signup-left .maintxt{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.signup-left .subtxt{
+    margin: 0px;
+}
+
+.signup-right{
+    align-self: center;
+}
+
+.signupbtn{
+    border: #E5E7EB solid;
 }
 
 /* Footer */
